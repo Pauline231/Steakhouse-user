@@ -22,14 +22,14 @@ const Nav = () => {
     <header className='w-screen sticky top-0 backdrop-blur-md  z-10 px-10 py-2 '>
     <nav className='flex flex-row justify-between items-center'>
         <div className='flex flex-row justify-center items-center'>
-        <a href='/'><button className='rounded-full overflow-hidden size-20 border-none mr-3 max-sm:size-10'><img src="../src/assets/images/beef.png" alt='LOGO' height={20} width={130}/></button></a>
+        <a href='/'><button className='rounded-full overflow-hidden size-20 border-none mr-3 max-sm:size-10'><img src="https://res.cloudinary.com/dbyv6krcj/image/upload/v1709740660/syakjablusal3zpbrzjy.png" alt='LOGO' height={20} width={130}/></button></a>
         <p className='text-rose-800 font-montserrat font-bold text-4xl max-md:text-sm'>STEAKHOUSE</p>
         </div>
 
     <ul className='flex-1 flex flex-row justify-end items-center max-xl:hidden gap-16 font-montserrat text-rose-800'>
         <li className='flex flex-row relative hover:cursor-pointer ' >
           <a onClick={()=>navigate('/api/cart')}>
-        <img src='../src/assets/images/dinner.png'  width={40} height={20}/>
+        <img src='https://res.cloudinary.com/dbyv6krcj/image/upload/v1709740617/lbnj8agd2cqiamx2qnj8.png'  width={40} height={20}/>
         <sup className='flex h-5 w-5 z-10 ml-8  absolute rounded-full items-center justify-center bg-rose-800 text-white'>{cartCount}</sup>
         </a></li>
        

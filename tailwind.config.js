@@ -25,7 +25,7 @@ export default {
       "wide": "1440px"
     },
     backgroundImage:{
-     'steak' : "url('src/assets/images/steak.jpg')",
+     'steak' : "url('https://res.cloudinary.com/dbyv6krcj/image/upload/v1709732195/wabue5leluu3r68tdpe5.jpg')",
     }
   },
   plugins: [],  
