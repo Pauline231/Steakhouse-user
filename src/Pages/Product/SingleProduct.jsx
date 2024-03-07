@@ -29,6 +29,7 @@ const SingleProduct = () => {
     }
     dispatch(addtoCart(id))
  } 
+
  const[rating, setRating] = useState(0)
  const [description, setDescription] = useState('')
  const handleReview = ()=>{
@@ -45,7 +46,7 @@ const SingleProduct = () => {
     <>
     <Nav/>
     <section>
-<div className="min-w-screen  bg-white-200 flex items-center p-5 lg:p-10 overflow-hidden ">
+<div className="min-w-screen  bg-white-200 flex items-center p-5 max-sm:p-1 max-sm:w-screen  lg:p-10 overflow-hidden ">
     <div className="w-full max-w-6xl rounded bg-white p-10 lg:p-20 mx-auto text-gray-800 relative md:text-left">
         <div className="md:flex items-center-mx-10">
             <div className="w-full md:w-1/2 px-10 mb-10 md:mb-0">
@@ -80,7 +81,7 @@ const SingleProduct = () => {
 
 <section className='px-20 mx-20 flex flex-col items-center justify-center my-10 '>
     
-    <h2 className='text-2xl text-rose-800 font-montserrat  font-bold'>How do you like us?</h2>
+    <h2 className='text-2xl text-rose-800 font-montserrat max-sm:w-screen max-sm:ml-20 max-sm:text-xl font-bold'>How do you like us?</h2>
     <div className='flex items-center justify-center  py-5 px-10'>
     <div className='flex flex-row'>
     <div className='flex flex-row-reverse max-lg:flex-col gap-2 shadow-lg justify-start rounded-xl px-7 py-3 my-5 items-center'>

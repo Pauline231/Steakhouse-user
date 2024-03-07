@@ -4,12 +4,12 @@ const Footer = () => {
   return (
     <>
     
-<div className=" bg-gray-900 w-screen ">
+<div className=" bg-gray-900 w-screen  ">
     <div className="max-w-2xl mx-auto text-white py-10">
         <div className="text-center">
-            <h3 className="text-3xl mb-3 font-montserrat"> Download our Steak app. </h3>
-            <p className='font-montserrat'> And get hold of some of our fabulous recipis. </p>
-            <div className="flex justify-center my-10">
+            <h3 className="text-3xl mb-3 font-montserrat max-sm:text-xl"> Download our Steak app. </h3>
+            <p className='font-montserrat max-sm:text-sm'> And get hold of some of our fabulous recipis. </p>
+            <div className="flex justify-center max-sm:flex-col max-sm:items-center my-10">
                 <div className="flex items-center border w-52 rounded-lg px-4 py-2 hover:cursor-pointer mx-2 border-white">
                     <img src="https://cdn-icons-png.flaticon.com/512/888/888857.png" className="w-7 md:w-8"/>
                     <div className="text-left ml-3">

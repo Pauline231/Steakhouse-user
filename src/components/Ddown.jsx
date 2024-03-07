@@ -6,7 +6,7 @@ const Ddown = () => {
     const navigate = useNavigate()
   return (
     <>
-      <div className='flex absolute right-0 mt-[150px] mr-20 z-10 flex-col px-5 py-5 font-montserrat rounded-md bg-white w-[250px]'>
+      <div className='flex absolute right-0 mt-[400px] mr-20 z-10 flex-col px-5 py-5 font-montserrat rounded-md bg-white w-[250px]'>
       <div class="py-6 flex text-rose-800 px-5 rounded-full items-center w-full hover:bg-gray-50">
                           <a onClick={()=>{navigate(`/api/cart`)}} class="flex-1">
                               <div class="text-rose-800 text-base">Plate</div>
