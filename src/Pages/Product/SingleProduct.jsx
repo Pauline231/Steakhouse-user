@@ -62,7 +62,7 @@ const SingleProduct = () => {
                 </div>
                 <div>
                     <div className="inline-block align-bottom mr-5">
-                        <span className="text-2xl leading-none align-baseline text-yellow-400">$</span>
+                        <span className="text-2xl leading-none align-baseline text-yellow-400">Rs.</span>
                         <span className="font-bold font-montserrat text-rose-800 text-2xl leading-none align-baseline">{data.productPrice}</span>
                         <span className="text-2xl leading-none align-baseline"></span>
                     </div>

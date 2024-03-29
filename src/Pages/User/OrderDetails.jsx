@@ -75,7 +75,7 @@ const OrderDetails = () => {
           <div className="flex justify-center items-center w-full space-y-4 flex-col border-gray-200 border-b pb-4">
             <div className="flex justify-between w-full">
               <p className="text-baset text-gray-800 font-palanquin leading-4 ">Subtotal</p>
-              <p className="text-base font-montserrat leading-4 text-gray-600">{subtotal}</p>
+              <p className="text-base font-montserrat leading-4 text-gray-600">Rs.{subtotal}</p>
             </div>
             <div className="flex justify-between items-center w-full">
               <p className="text-base  font-palanquin leading-4 text-gray-800">Discount </p>
