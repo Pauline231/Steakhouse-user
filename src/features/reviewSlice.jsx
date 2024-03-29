@@ -20,7 +20,7 @@ export const ReviewSlice = createSlice({
         .addCase(createReview.fulfilled,(state,action)=>{
             const id = action.payload
             state.status = STATUS.SUCCESS
-            location.replace(`/product/${id}`)
+            location.reload()
         })
     }
 })
